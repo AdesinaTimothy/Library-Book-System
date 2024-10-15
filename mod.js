@@ -16,6 +16,7 @@ function addBook (name, author, publishDate, shelfNumber) {
 
 
 // Function to remove book from the library system
+// Function to remove book from the library system
 function removeBook (name) {
     const index = books.findIndex((book) => book.name === name)
 
